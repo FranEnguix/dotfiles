@@ -85,3 +85,15 @@ set encoding=utf-8
 colorscheme coffee
 " this must be below colorscheme:
 hi Normal guibg=NONE ctermbg=NONE
+" Coffee.vim colors for YouCompleteMe
+hi Pmenu ctermfg=5 ctermbg=8 cterm=NONE guifg=#cb6b25 guibg=#4b3516 gui=NONE
+hi PmenuSel ctermfg=15 ctermbg=8 cterm=NONE guifg=#e7c387 guibg=#4b3516 gui=NONE
+hi YcmErrorLine ctermfg=13 ctermbg=NONE cterm=NONE guifg=#c15239 guibg=NONE gui=NONE
+hi YcmErrorSign ctermfg=13 ctermbg=NONE cterm=NONE guifg=#c15239 guibg=NONE gui=NONE
+hi YcmErrorSection ctermfg=13 ctermbg=NONE cterm=NONE guifg=#c15239 guibg=NONE gui=NONE
+hi YcmWarningLine ctermfg=3 ctermbg=NONE cterm=NONE guifg=#cbad25 guibg=NONE gui=NONE
+hi YcmWarningSign ctermfg=3 ctermbg=NONE cterm=NONE guifg=#cbad25 guibg=NONE gui=NONE
+hi YcmWarningSection ctermfg=3 ctermbg=NONE cterm=NONE guifg=#cbad25 guibg=NONE gui=NONE
+
+" YOU COMPLETE ME QUICK COMMANDS:
+" :p[review]c[lose] Close Scratch Preview

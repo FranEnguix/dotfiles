@@ -72,3 +72,6 @@ hi LineNr ctermfg=14 ctermbg=NONE cterm=NONE guifg=#9e510d guibg=NONE gui=NONE
 hi CursorLineNr ctermfg=1 ctermbg=NONE cterm=NONE guifg=#6f2814 guibg=NONE gui=NONE
 
 hi ColorColumn ctermfg=8 ctermbg=NONE cterm=NONE guifg=#4b3516 guibg=NONE gui=NONE
+
+" EXTRA:
+hi SignColumn ctermfg=8 ctermbg=NONE cterm=NONE guifg=#4b3516 guibg=NONE gui=NONE
